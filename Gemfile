@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'httparty'
+gem 'octokit'
+
+gem 'rspec'

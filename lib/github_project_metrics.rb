@@ -1,8 +1,9 @@
-require 'httparty'
+require 'octokit'
 
 class GithubProjectMetrics
   def initialize identifier
-    @identifier = identifier
+    @identifier = URI::parse(identifier).path[1..-1]
+    @client = Octokit::Client.new(:access_token => ENV['GITHUB_KEY'])
   end
 
   def image
@@ -10,6 +11,6 @@ class GithubProjectMetrics
   end
 
   def scalar
-    # some scalar representation of github activity
+    @client.search_issues("repo:#{@identifier} type:pr")['total_count']
   end
 end
