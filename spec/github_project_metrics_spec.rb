@@ -1,6 +1,6 @@
 require 'project_metric_github'
 
-describe ProjectMetricGithub do 
+describe ProjectMetricGithub, :vcr  do 
   context 'AgileVentures/WebsiteOne repo' do
     subject(:github_project_metrics) do
       described_class.new url: 'http://github.com/AgileVentures/WebsiteOne'
