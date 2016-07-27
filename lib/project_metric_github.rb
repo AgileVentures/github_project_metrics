@@ -1,6 +1,6 @@
 require 'octokit'
 
-class GithubProjectMetrics
+class ProjectMetricGithub
   def initialize identifier
     @identifier = URI::parse(identifier).path[1..-1]
     @client = Octokit::Client.new(access_token: ENV['GITHUB_KEY'])
