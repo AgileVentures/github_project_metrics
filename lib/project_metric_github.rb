@@ -1,8 +1,8 @@
 require 'octokit'
 
 class ProjectMetricGithub
-  def initialize identifier
-    @identifier = URI::parse(identifier).path[1..-1]
+  def initialize credentials = {}, raw_data = nil
+    @identifier = URI::parse(credentials[:url]).path[1..-1]
     @client = Octokit::Client.new(access_token: ENV['GITHUB_KEY'])
   end
 
@@ -10,7 +10,7 @@ class ProjectMetricGithub
     # some visual representation of github activity
   end
 
-  def scalar
+  def score
     @client.search_issues("repo:#{@identifier} type:pr")['total_count']
   end
 end
