@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# stub: github_project_metrics 0.0.2 ruby lib
+# stub: github_project_metrics 0.0.0 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "project_metric_github"
