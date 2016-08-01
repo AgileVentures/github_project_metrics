@@ -7,7 +7,7 @@ class ProjectMetricGithub
   end
 
   def image
-    # some visual representation of github activity
+    %Q{<svg><rect x="0" y="0" width="#{score}" height="20" style="fill:yellow;stroke:black"/></svg>}
   end
 
   def score
