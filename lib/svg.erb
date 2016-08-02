@@ -1,1 +1,7 @@
-<svg><a xlink:href="<%= @url %>/pulls"><rect x="0" y="0" width="<%= @score * 10 %>" height="20" style="fill:yellow;stroke:black"/></a></svg>
+<svg>
+  <a xlink:href="<%= @url %>/pulls">
+    <rect x="0" y="0" width="<%= 100 * @red / @total %>" height="20" style="fill:red;stroke:black"/>
+    <rect x="<%= 100 * @red / @total %>" y="0" width="<%= 100 * (@red + @yellow) / @total %>" height="20" style="fill:yellow;stroke:black"/>
+    <rect x="<%= 100 * (@red + @yellow) / @total %>" y="0" width="<%= 100 * (@red + @yellow + @green) / @total %>" height="20" style="fill:green;stroke:black"/>
+  </a>
+</svg>

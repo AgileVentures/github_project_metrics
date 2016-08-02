@@ -17,6 +17,7 @@ class ProjectMetricGithub
 
   def score
     @raw_data ||= get_pull_requests
+    @total = @raw_data.items.count
     @red = @raw_data.items.count { |i| i.comments == 0 }
     @yellow = @raw_data.items.count { |i| i.comments == 1 }
     @green = @raw_data.items.count { |i| i.comments >= 2 }
