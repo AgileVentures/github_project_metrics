@@ -1,7 +1,0 @@
-<svg>
-  <a xlink:href="https://github.com/AgileVentures/LocalSupport/pulls">
-    <rect x="0" y="0" width="30" height="20" style="fill:red;stroke:black"/>
-    <rect x="30" y="0" width="46" height="20" style="fill:yellow;stroke:black"/>
-    <rect x="46" y="0" width="100" height="20" style="fill:green;stroke:black"/>
-  </a>
-</svg>
