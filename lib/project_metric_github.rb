@@ -6,13 +6,12 @@ class ProjectMetricGithub
     @url = credentials[:url]
     @identifier = URI::parse(@url).path[1..-1]
     @client = Octokit::Client.new(access_token: ENV['GITHUB_ACCESS_TOKEN'])
-    @client.auto_paginate = true # original projectscope had this - do we need?
+    @client.auto_paginate = true 
   end
 
   def image
     @score = score
-    # TODO next up adjust layout to display all the colors
-    ERB.new(File.read('./lib/svg.erb')).result(get_binding)
+    ERB.new(File.read('./lib/svg.erb')).result(self.send(:binding))
   end
 
   def score
@@ -31,10 +30,6 @@ class ProjectMetricGithub
   def refresh
     @raw_data = get_pull_requests
     true
-  end
-
-  def get_binding
-    binding
   end
 
   private
