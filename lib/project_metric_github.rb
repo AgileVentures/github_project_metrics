@@ -14,7 +14,8 @@ class ProjectMetricGithub
 
   def image
     @score = score
-    ERB.new(File.read('./lib/svg.erb')).result(self.send(:binding))
+    file_path = File.join(File.dirname(__FILE__),'svg.erb')
+    ERB.new(File.read(file_path)).result(self.send(:binding))
   end
 
   def score
