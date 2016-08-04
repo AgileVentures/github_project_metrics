@@ -2,6 +2,9 @@ require 'octokit'
 require 'erb'
 
 class ProjectMetricGithub
+
+  attr_reader :raw_data
+
   def initialize credentials = {}, raw_data = nil
     @url = credentials[:url]
     @identifier = URI::parse(@url).path[1..-1]
