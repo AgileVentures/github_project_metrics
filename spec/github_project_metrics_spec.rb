@@ -3,8 +3,8 @@ require 'project_metric_github'
 describe ProjectMetricGithub, :vcr  do 
 
   let(:raw_data) { JSON.parse(File.read('./spec/data/github_search_issues_ls_repo_type_pr_314.json'), object_class: OpenStruct) }
-  let(:svg_wso_66_11) { File.read './spec/data/websiteone_66_11_pulls.svg' }
-  let(:svg_ls_27_18) { File.read './spec/data/localsupport_27_18_pulls.svg' }
+  let(:svg_wso_66_77) { File.read './spec/data/websiteone_66_77_pulls.svg' }
+  let(:svg_ls_27_45) { File.read './spec/data/localsupport_27_45_pulls.svg' }
   let(:svg_ls_30_46) { File.read './spec/data/localsupport_30_46_pulls.svg' }
 
   context 'AgileVentures/WebsiteOne repo' do
@@ -17,7 +17,7 @@ describe ProjectMetricGithub, :vcr  do
     end
 
     it 'has the corresponding image value' do
-      expect(github_project_metrics.image).to eq svg_wso_66_11
+      expect(github_project_metrics.image).to eq svg_wso_66_77
     end
   end
 
@@ -27,11 +27,11 @@ describe ProjectMetricGithub, :vcr  do
     end
 
     it 'has the corresponding score value' do
-      expect(github_project_metrics.score).to eq 0.6328125
+      expect(github_project_metrics.score).to eq 0.6339563862928349
     end
 
     it 'has the corresponding image value' do
-      expect(github_project_metrics.image).to eq svg_ls_27_18
+      expect(github_project_metrics.image).to eq svg_ls_27_45
     end
 
     it 'can have raw data set directly, avoiding network request', vcr: false do
@@ -43,8 +43,8 @@ describe ProjectMetricGithub, :vcr  do
     it 'can have network data refreshed, forcing network request' do
       github_project_metrics.raw_data = raw_data
       github_project_metrics.refresh
-      expect(github_project_metrics.score).to eq 0.6328125
-      expect(github_project_metrics.image).to eq svg_ls_27_18
+      expect(github_project_metrics.score).to eq 0.6339563862928349
+      expect(github_project_metrics.image).to eq svg_ls_27_45
     end
 
   end
