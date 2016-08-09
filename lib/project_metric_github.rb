@@ -1,8 +1,12 @@
 require 'octokit'
 
 class ProjectMetricGithub
+
+  attr_reader :raw_data
+
   def initialize credentials = {}, raw_data = nil
     @identifier = URI::parse(credentials[:url]).path[1..-1]
+    @raw_data = raw_data
     @client = Octokit::Client.new(access_token: ENV['GITHUB_KEY'])
   end
 
