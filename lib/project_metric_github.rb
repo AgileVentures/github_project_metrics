@@ -1,18 +1,30 @@
 require 'octokit'
+require 'erb'
 
 class ProjectMetricGithub
+
+  attr_reader :raw_data
+
   def initialize credentials = {}, raw_data = nil
-    @identifier = URI::parse(credentials[:url]).path[1..-1]
-    @client = Octokit::Client.new(access_token: ENV['GITHUB_KEY'])
+    @url = credentials[:url]
+    @identifier = URI::parse(@url).path[1..-1]
+    @client = Octokit::Client.new(access_token: ENV['GITHUB_ACCESS_TOKEN'])
+    @client.auto_paginate = true 
   end
 
   def image
-    %Q{<svg><rect x="0" y="0" width="#{score}" height="20" style="fill:yellow;stroke:black"/></svg>}
+    @score = score
+    file_path = File.join(File.dirname(__FILE__),'svg.erb')
+    ERB.new(File.read(file_path)).result(self.send(:binding))
   end
 
   def score
     @raw_data ||= get_pull_requests
-    @raw_data['total_count']
+    @total = @raw_data.items.count
+    @red = @raw_data.items.count { |i| i.comments == 0 }
+    @yellow = @raw_data.items.count { |i| i.comments == 1 }
+    @green = @raw_data.items.count { |i| i.comments >= 2 }
+    (@green + @yellow * 0.5) / (@green + @red + @yellow)
   end
 
   def raw_data=(raw_data)
