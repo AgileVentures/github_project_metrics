@@ -8,6 +8,7 @@ class ProjectMetricGithub
   def initialize credentials = {}, raw_data = nil
     @url = credentials[:url]
     @identifier = URI::parse(@url).path[1..-1]
+    @raw_data = raw_data
     @client = Octokit::Client.new(access_token: ENV['GITHUB_ACCESS_TOKEN'])
     @client.auto_paginate = true 
   end

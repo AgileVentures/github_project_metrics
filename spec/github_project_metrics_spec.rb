@@ -19,6 +19,24 @@ describe ProjectMetricGithub, :vcr  do
     it 'has the corresponding image value' do
       expect(github_project_metrics.image).to eq svg_wso_66_77
     end
+
+    it 'returns raw_data after set' do
+      github_project_metrics.raw_data = raw_data
+      expect(github_project_metrics.raw_data).to eq raw_data
+    end
+
+    context 'with raw_data fed into constructor' do
+
+      subject(:github_project_metrics) do
+        described_class.new({url: 'http://github.com/AgileVentures/WebsiteOne'}, raw_data)
+      end
+
+      it 'returns raw_data' do
+        expect(github_project_metrics.raw_data).to eq raw_data
+      end
+
+    end
+
   end
 
   context 'AgileVentures/LocalSupport repo' do
