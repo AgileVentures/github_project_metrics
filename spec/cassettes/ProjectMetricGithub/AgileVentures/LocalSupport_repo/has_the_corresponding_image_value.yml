@@ -25,7 +25,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:32 GMT
+      - Fri, 05 Aug 2016 02:59:38 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -35,7 +35,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '9'
+      - '5'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -68,9 +68,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - 4c8b2d4732c413f4b9aefe394bd65569
+      - bd82876e9bf04990f289ba22f246ee9b
       X-Github-Request-Id:
-      - 77F27934:2E4E9:37B422E:57A40114
+      - 77F27934:2E4E9:37B42FD:57A40119
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5216,7 +5216,7 @@ http_interactions:
         cHBpbmcgaW4gZmVhdHVyZSB0ZXN0cyBiZWZvcmUgd2UgcHVsbCB0aGlzIGlu
         IHRvIGRldmVsb3AiLCJzY29yZSI6MS4wfV19
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:32 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:38 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=2&per_page=100&q=repo:AgileVentures/LocalSupport%20type:pr
@@ -5242,7 +5242,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:34 GMT
+      - Fri, 05 Aug 2016 02:59:39 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -5252,7 +5252,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '8'
+      - '4'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -5287,9 +5287,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - 07ff1c8a09e44b62e277fae50a1b1dc4
+      - dc1ce2bfb41810a06c705e83b388572d
       X-Github-Request-Id:
-      - 77F27934:2E4EC:90F7EF8:57A40115
+      - 77F27934:2E4EC:90F81DB:57A4011A
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -10393,7 +10393,7 @@ http_interactions:
         dGhlIG5ldyBcIlByb3Bvc2UgYW4gZWRpdFwiIGJ1dHRvbiBpbiBsaWV1IG9m
         IGFuIGVkaXQgYnV0dG9uLiIsInNjb3JlIjoxLjB9XX0=
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:34 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:39 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=3&per_page=100&q=repo:AgileVentures/LocalSupport%20type:pr
@@ -10419,7 +10419,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:35 GMT
+      - Fri, 05 Aug 2016 02:59:40 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -10429,7 +10429,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '7'
+      - '3'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -10464,9 +10464,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - 4c8b2d4732c413f4b9aefe394bd65569
+      - d594a23ec74671eba905bf91ef329026
       X-Github-Request-Id:
-      - 77F27934:2E4EC:90F7FB0:57A40116
+      - 77F27934:2E4EC:90F8293:57A4011C
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -15651,7 +15651,7 @@ http_interactions:
         bmN0aW9uYWxpdHksIGJ1dCB6ZXJvIHVuaXQgdGVzdHMgZm9yIGl0LiIsInNj
         b3JlIjoxLjB9XX0=
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:35 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:42 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=4&per_page=100&q=repo:AgileVentures/LocalSupport%20type:pr
@@ -15677,7 +15677,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:36 GMT
+      - Fri, 05 Aug 2016 02:59:44 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -15687,7 +15687,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '6'
+      - '2'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -15720,9 +15720,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - a241e1a8264a6ace03db946c85b92db3
+      - 7f48e2f7761567e923121f17538d7a6d
       X-Github-Request-Id:
-      - 77F27934:2E4E9:37B42D1:57A40118
+      - 77F27934:2E4EC:90F8470:57A4011F
     body:
       encoding: ASCII-8BIT
       string: '{"total_count":321,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/AgileVentures/LocalSupport/issues/21","repository_url":"https://api.github.com/repos/AgileVentures/LocalSupport","labels_url":"https://api.github.com/repos/AgileVentures/LocalSupport/issues/21/labels{/name}","comments_url":"https://api.github.com/repos/AgileVentures/LocalSupport/issues/21/comments","events_url":"https://api.github.com/repos/AgileVentures/LocalSupport/issues/21/events","html_url":"https://github.com/AgileVentures/LocalSupport/pull/21","id":31257703,"number":21,"title":"Volunteer
@@ -15864,5 +15864,5 @@ http_interactions:
         determined by a whitelist of request controllers and verbs","user":{"login":"johnnymo87","id":3466499,"avatar_url":"https://avatars.githubusercontent.com/u/3466499?v=3","gravatar_id":"","url":"https://api.github.com/users/johnnymo87","html_url":"https://github.com/johnnymo87","followers_url":"https://api.github.com/users/johnnymo87/followers","following_url":"https://api.github.com/users/johnnymo87/following{/other_user}","gists_url":"https://api.github.com/users/johnnymo87/gists{/gist_id}","starred_url":"https://api.github.com/users/johnnymo87/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johnnymo87/subscriptions","organizations_url":"https://api.github.com/users/johnnymo87/orgs","repos_url":"https://api.github.com/users/johnnymo87/repos","events_url":"https://api.github.com/users/johnnymo87/events{/privacy}","received_events_url":"https://api.github.com/users/johnnymo87/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":1,"created_at":"2014-03-04T15:47:08Z","updated_at":"2014-03-20T01:05:30Z","closed_at":"2014-03-05T18:51:21Z","pull_request":{"url":"https://api.github.com/repos/AgileVentures/LocalSupport/pulls/1","html_url":"https://github.com/AgileVentures/LocalSupport/pull/1","diff_url":"https://github.com/AgileVentures/LocalSupport/pull/1.diff","patch_url":"https://github.com/AgileVentures/LocalSupport/pull/1.patch"},"body":"see
         the former pull request [here](https://github.com/tansaku/LocalSupport/pull/199)","score":1.0}]}'
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:37 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:44 GMT
 recorded_with: VCR 3.0.3

@@ -25,7 +25,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:03 GMT
+      - Fri, 05 Aug 2016 02:59:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -35,7 +35,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '29'
+      - '19'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -68,9 +68,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - a7f8a126c9ed3f1c4715a34c0ddc7290
+      - e183f7c661b1bbc2c987b3c4dc7b04e0
       X-Github-Request-Id:
-      - 77F27934:2E4EC:90F6B2D:57A400F7
+      - 77F27934:2E4EC:90F757E:57A40106
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -4611,7 +4611,7 @@ http_interactions:
         L1dlYnNpdGVPbmUvcHVsbC8xMDA5LnBhdGNoIn0sImJvZHkiOiJmaXhlcyAj
         MTAwNyIsInNjb3JlIjoxLjB9XX0=
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:04 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:19 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=2&per_page=100&q=repo:AgileVentures/WebsiteOne%20type:pr
@@ -4637,7 +4637,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:05 GMT
+      - Fri, 05 Aug 2016 02:59:20 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -4647,7 +4647,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '28'
+      - '18'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -4682,9 +4682,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - d0b3c2c33a23690498aa8e70a435a259
+      - 139317cebd6caf9cd03889139437f00b
       X-Github-Request-Id:
-      - 77F27934:2E4EC:90F6C58:57A400F8
+      - 77F27934:2E4EC:90F767C:57A40107
     body:
       encoding: ASCII-8BIT
       string: '{"total_count":940,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/1008","repository_url":"https://api.github.com/repos/AgileVentures/WebsiteOne","labels_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/1008/labels{/name}","comments_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/1008/comments","events_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/1008/events","html_url":"https://github.com/AgileVentures/WebsiteOne/pull/1008","id":149871311,"number":1008,"title":"865
@@ -4949,7 +4949,7 @@ http_interactions:
         Add a check in the slack service to make sure that blank notifications don''t
         get sent out to agile-bot\r\n\r\nFixes AgileVentures/agile-bot#2","score":1.0}]}'
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:05 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:20 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=3&per_page=100&q=repo:AgileVentures/WebsiteOne%20type:pr
@@ -4975,7 +4975,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:06 GMT
+      - Fri, 05 Aug 2016 02:59:21 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -4985,7 +4985,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '27'
+      - '17'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -5022,7 +5022,7 @@ http_interactions:
       X-Served-By:
       - a241e1a8264a6ace03db946c85b92db3
       X-Github-Request-Id:
-      - 77F27934:2E4EB:6D7E29D:57A400FA
+      - 77F27934:2E4EC:90F7762:57A40108
     body:
       encoding: ASCII-8BIT
       string: '{"total_count":940,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/767","repository_url":"https://api.github.com/repos/AgileVentures/WebsiteOne","labels_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/767/labels{/name}","comments_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/767/comments","events_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/767/events","html_url":"https://github.com/AgileVentures/WebsiteOne/pull/767","id":131611150,"number":767,"title":"Resolving
@@ -5259,7 +5259,7 @@ http_interactions:
         coveralls fixes. bumped some gem versions and followed OSRA''s settings","user":{"login":"tochman","id":5248170,"avatar_url":"https://avatars.githubusercontent.com/u/5248170?v=3","gravatar_id":"","url":"https://api.github.com/users/tochman","html_url":"https://github.com/tochman","followers_url":"https://api.github.com/users/tochman/followers","following_url":"https://api.github.com/users/tochman/following{/other_user}","gists_url":"https://api.github.com/users/tochman/gists{/gist_id}","starred_url":"https://api.github.com/users/tochman/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tochman/subscriptions","organizations_url":"https://api.github.com/users/tochman/orgs","repos_url":"https://api.github.com/users/tochman/repos","events_url":"https://api.github.com/users/tochman/events{/privacy}","received_events_url":"https://api.github.com/users/tochman/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2015-03-31T11:09:19Z","updated_at":"2015-03-31T11:39:54Z","closed_at":"2015-03-31T11:39:54Z","pull_request":{"url":"https://api.github.com/repos/AgileVentures/WebsiteOne/pulls/646","html_url":"https://github.com/AgileVentures/WebsiteOne/pull/646","diff_url":"https://github.com/AgileVentures/WebsiteOne/pull/646.diff","patch_url":"https://github.com/AgileVentures/WebsiteOne/pull/646.patch"},"body":"","score":1.0},{"url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/645","repository_url":"https://api.github.com/repos/AgileVentures/WebsiteOne","labels_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/645/labels{/name}","comments_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/645/comments","events_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/645/events","html_url":"https://github.com/AgileVentures/WebsiteOne/pull/645","id":65418740,"number":645,"title":"PATCH
         for coveralls","user":{"login":"tochman","id":5248170,"avatar_url":"https://avatars.githubusercontent.com/u/5248170?v=3","gravatar_id":"","url":"https://api.github.com/users/tochman","html_url":"https://github.com/tochman","followers_url":"https://api.github.com/users/tochman/followers","following_url":"https://api.github.com/users/tochman/following{/other_user}","gists_url":"https://api.github.com/users/tochman/gists{/gist_id}","starred_url":"https://api.github.com/users/tochman/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tochman/subscriptions","organizations_url":"https://api.github.com/users/tochman/orgs","repos_url":"https://api.github.com/users/tochman/repos","events_url":"https://api.github.com/users/tochman/events{/privacy}","received_events_url":"https://api.github.com/users/tochman/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2015-03-31T10:24:20Z","updated_at":"2016-03-10T10:00:16Z","closed_at":"2015-03-31T10:24:52Z","pull_request":{"url":"https://api.github.com/repos/AgileVentures/WebsiteOne/pulls/645","html_url":"https://github.com/AgileVentures/WebsiteOne/pull/645","diff_url":"https://github.com/AgileVentures/WebsiteOne/pull/645.diff","patch_url":"https://github.com/AgileVentures/WebsiteOne/pull/645.patch"},"body":"","score":1.0}]}'
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:07 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:21 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=4&per_page=100&q=repo:AgileVentures/WebsiteOne%20type:pr
@@ -5285,7 +5285,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:08 GMT
+      - Fri, 05 Aug 2016 02:59:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -5295,7 +5295,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '26'
+      - '16'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -5330,9 +5330,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - 2c18a09f3ac5e4dd1e004af7c5a94769
+      - 2d7a5e35115884240089368322196939
       X-Github-Request-Id:
-      - 77F27934:2E4EC:90F6E54:57A400FB
+      - 77F27934:2E4EC:90F7841:57A4010A
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -10156,7 +10156,7 @@ http_interactions:
         NTQ1LnBhdGNoIn0sImJvZHkiOiJSZXZlcnRzIEFnaWxlVmVudHVyZXMvV2Vi
         c2l0ZU9uZSM1MzgiLCJzY29yZSI6MS4wfV19
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:08 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:23 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=5&per_page=100&q=repo:AgileVentures/WebsiteOne%20type:pr
@@ -10182,7 +10182,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:10 GMT
+      - Fri, 05 Aug 2016 02:59:24 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -10192,7 +10192,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '25'
+      - '15'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -10227,9 +10227,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - 593010132f82159af0ded24b4932e109
+      - 173530fed4bbeb1e264b2ed22e8b5c20
       X-Github-Request-Id:
-      - 77F27934:2E4EB:6D7E42F:57A400FD
+      - 77F27934:2E4EC:90F794B:57A4010B
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -15388,7 +15388,7 @@ http_interactions:
         cmVxdWVzdGVkXHJcbnNpbGVuY2VkIGNvbnNvbGUgbWFpbGVyIiwic2NvcmUi
         OjEuMH1dfQ==
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:10 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:24 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=6&per_page=100&q=repo:AgileVentures/WebsiteOne%20type:pr
@@ -15414,7 +15414,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:11 GMT
+      - Fri, 05 Aug 2016 02:59:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -15424,7 +15424,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '24'
+      - '14'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -15459,9 +15459,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - 2c18a09f3ac5e4dd1e004af7c5a94769
+      - a30e6f9aa7cf5731b87dfb3b9992202d
       X-Github-Request-Id:
-      - 77F27934:2E4EB:6D7E522:57A400FE
+      - 77F27934:2E4EB:6D7EBB8:57A4010D
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -20391,7 +20391,7 @@ http_interactions:
         ZyBsYXRlc3QgY2hhbmdlcyB0byBjb2RlIHRvIHByb2R1Y3Rpb24iLCJzY29y
         ZSI6MS4wfV19
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:11 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:26 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=7&per_page=100&q=repo:AgileVentures/WebsiteOne%20type:pr
@@ -20417,7 +20417,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:12 GMT
+      - Fri, 05 Aug 2016 02:59:27 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -20427,7 +20427,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '23'
+      - '13'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -20462,9 +20462,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - 01d096e6cfe28f8aea352e988c332cd3
+      - 139317cebd6caf9cd03889139437f00b
       X-Github-Request-Id:
-      - 77F27934:2E4E9:37B3F08:57A40100
+      - 77F27934:2E4EB:6D7EC5D:57A4010E
     body:
       encoding: ASCII-8BIT
       string: '{"total_count":940,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/342","repository_url":"https://api.github.com/repos/AgileVentures/WebsiteOne","labels_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/342/labels{/name}","comments_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/342/comments","events_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/342/events","html_url":"https://github.com/AgileVentures/WebsiteOne/pull/342","id":30719020,"number":342,"title":"Deploying
@@ -20782,7 +20782,7 @@ http_interactions:
         gravatar default image","user":{"login":"yggie","id":2663402,"avatar_url":"https://avatars.githubusercontent.com/u/2663402?v=3","gravatar_id":"","url":"https://api.github.com/users/yggie","html_url":"https://github.com/yggie","followers_url":"https://api.github.com/users/yggie/followers","following_url":"https://api.github.com/users/yggie/following{/other_user}","gists_url":"https://api.github.com/users/yggie/gists{/gist_id}","starred_url":"https://api.github.com/users/yggie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yggie/subscriptions","organizations_url":"https://api.github.com/users/yggie/orgs","repos_url":"https://api.github.com/users/yggie/repos","events_url":"https://api.github.com/users/yggie/events{/privacy}","received_events_url":"https://api.github.com/users/yggie/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2014-03-06T11:03:04Z","updated_at":"2014-03-06T12:06:58Z","closed_at":"2014-03-06T12:06:58Z","pull_request":{"url":"https://api.github.com/repos/AgileVentures/WebsiteOne/pulls/243","html_url":"https://github.com/AgileVentures/WebsiteOne/pull/243","diff_url":"https://github.com/AgileVentures/WebsiteOne/pull/243.diff","patch_url":"https://github.com/AgileVentures/WebsiteOne/pull/243.patch"},"body":"**Updated
         gravatar default image to use awesome 8-bit art**","score":1.0}]}'
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:13 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:27 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=8&per_page=100&q=repo:AgileVentures/WebsiteOne%20type:pr
@@ -20808,7 +20808,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:14 GMT
+      - Fri, 05 Aug 2016 02:59:28 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -20818,7 +20818,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '22'
+      - '12'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -20853,9 +20853,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - cee4c0729c8e9147e7abcb45b9d69689
+      - 139317cebd6caf9cd03889139437f00b
       X-Github-Request-Id:
-      - 77F27934:2E4EB:6D7E6CB:57A40102
+      - 77F27934:2E4EC:90F7C44:57A40110
     body:
       encoding: ASCII-8BIT
       string: '{"total_count":940,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/242","repository_url":"https://api.github.com/repos/AgileVentures/WebsiteOne","labels_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/242/labels{/name}","comments_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/242/comments","events_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/242/events","html_url":"https://github.com/AgileVentures/WebsiteOne/pull/242","id":28865236,"number":242,"title":"Pushing
@@ -21161,7 +21161,7 @@ http_interactions:
         false`\r\n`config.action_controller.perform_caching = false`\r\n\r\n### And
         we had good time doing it! ;-)","score":1.0}]}'
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:15 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:29 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=9&per_page=100&q=repo:AgileVentures/WebsiteOne%20type:pr
@@ -21187,7 +21187,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:16 GMT
+      - Fri, 05 Aug 2016 02:59:30 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -21197,7 +21197,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '21'
+      - '11'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -21232,9 +21232,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - 593010132f82159af0ded24b4932e109
+      - ef96c2e493b28ffea49b891b085ed2dd
       X-Github-Request-Id:
-      - 77F27934:2E4EC:90F73AE:57A40103
+      - 77F27934:2E4EB:6D7EDB0:57A40111
     body:
       encoding: ASCII-8BIT
       string: '{"total_count":940,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/141","repository_url":"https://api.github.com/repos/AgileVentures/WebsiteOne","labels_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/141/labels{/name}","comments_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/141/comments","events_url":"https://api.github.com/repos/AgileVentures/WebsiteOne/issues/141/events","html_url":"https://github.com/AgileVentures/WebsiteOne/pull/141","id":27275306,"number":141,"title":"some
@@ -21596,7 +21596,7 @@ http_interactions:
         modified ```application_helper.rb``` with resource for devise\r\n- updated
         factory for users.\r\n\r\n","score":1.0}]}'
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:16 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:30 GMT
 - request:
     method: get
     uri: https://api.github.com/search/issues?page=10&per_page=100&q=repo:AgileVentures/WebsiteOne%20type:pr
@@ -21622,7 +21622,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 05 Aug 2016 02:59:17 GMT
+      - Fri, 05 Aug 2016 02:59:31 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -21632,7 +21632,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '30'
       X-Ratelimit-Remaining:
-      - '20'
+      - '10'
       X-Ratelimit-Reset:
       - '1470366003'
       Cache-Control:
@@ -21665,9 +21665,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - a51acaae89a7607fd7ee967627be18e4
+      - bae57931a6fe678a3dffe9be8e7819c8
       X-Github-Request-Id:
-      - 77F27934:2E4E9:37B3FDF:57A40104
+      - 77F27934:2E4EC:90F7DB9:57A40112
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -23491,5 +23491,5 @@ http_interactions:
         IjoiaHR0cHM6Ly9naXRodWIuY29tL0FnaWxlVmVudHVyZXMvV2Vic2l0ZU9u
         ZS9wdWxsLzEucGF0Y2gifSwiYm9keSI6IiIsInNjb3JlIjoxLjB9XX0=
     http_version: 
-  recorded_at: Fri, 05 Aug 2016 02:59:17 GMT
+  recorded_at: Fri, 05 Aug 2016 02:59:31 GMT
 recorded_with: VCR 3.0.3
