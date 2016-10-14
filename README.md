@@ -14,6 +14,10 @@ Since this code assumes that a GITHUB_ACCESS_TOKEN env token is set to get an
 improved rate limit, although it should still work without it, but just at a 
 lower rate limit
 
+Required Configuration Variable
+-------------------------------
+- url: URL of the repository.
+
 TODO
 ----
 
