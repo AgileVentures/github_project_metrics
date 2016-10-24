@@ -7,6 +7,12 @@ describe ProjectMetricGithub, :vcr  do
   let(:svg_ls_27_45) { File.read './spec/data/localsupport_27_45_pulls.svg' }
   let(:svg_ls_30_46) { File.read './spec/data/localsupport_30_46_pulls.svg' }
 
+  context '::credentials' do
+    it 'contains exactly url' do
+      expect(described_class.credentials).to contain_exactly("url")
+    end
+  end
+
   context 'AgileVentures/WebsiteOne repo' do
     subject(:github_project_metrics) do
       described_class.new url: 'https://github.com/AgileVentures/WebsiteOne'
