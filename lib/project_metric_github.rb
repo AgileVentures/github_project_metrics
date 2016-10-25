@@ -38,7 +38,7 @@ class ProjectMetricGithub
   end
 
   def self.credentials
-    ['url']
+    [:url]
   end
 
 
