@@ -37,6 +37,11 @@ class ProjectMetricGithub
     true
   end
 
+  def self.credentials
+    [:url]
+  end
+
+
   private
 
   def get_pull_requests
