@@ -8,7 +8,7 @@ describe ProjectMetricGithub, :vcr  do
   let(:svg_ls_30_46) { File.read './spec/data/localsupport_30_46_pulls.svg' }
 
   context '::credentials' do
-     it 'includes exactly url, channel and token' do
+     it 'includes exactly url' do
        expect(described_class.credentials).to contain_exactly(:url)
      end
    end
